@@ -353,6 +353,14 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
+.post-gist {
+  display: block;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 75%;
+  color: #9a9a9a;
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;

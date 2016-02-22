@@ -1,0 +1,12 @@
+{% if post %}
+  {% assign p = post %}
+{% else %}
+  {% assign p = page %}
+{% endif %}
+
+{% if p.gist %}
+  <span class="post-gist">
+    Gist: <a href="https://gist.github.com/{{ p.gist }}">{{ p.gist }}</a>
+  </span>
+{% endif %}
+

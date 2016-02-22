@@ -1,0 +1,16 @@
+{% if post %}
+  {% assign p = post %}
+{% else %}
+  {% assign p = page %}
+{% endif %}
+
+<span class="post-date">
+  Posted {{ p.date | date_to_string }}
+  {% if p.tags.size %}
+    {% for tag in p.tags %}
+      {% if forloop.first %}in{% endif %}
+      <a href="/tags/#{{ tag | slugize }}">#{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  {% endif %}
+</span>
+
