@@ -1,0 +1,15 @@
+{% if post %}
+  {% assign p = post %}
+{% else %}
+  {% assign p = page %}
+{% endif %}
+
+<li>
+  <h3>
+    <a href="{{ p.url }}">
+      {{ p.title }}
+      <small>{{ p.date | date_to_string }}</small>
+    </a>
+  </h3>
+</li>
+
