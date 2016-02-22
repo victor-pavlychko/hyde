@@ -361,6 +361,18 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.tag-cloud li {
+  display: inline-block;
+  margin: 0 12px 12px 0;
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;
