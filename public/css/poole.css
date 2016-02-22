@@ -150,7 +150,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Source Code Pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
@@ -182,7 +182,7 @@ pre code {
 
 /* Pygments via Jekyll */
 .highlight {
-  margin-bottom: 1rem;
+  margin: 1rem 0.5rem;
   border-radius: 4px;
 }
 .highlight pre {
@@ -191,7 +191,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: Source Code Pro, Menlo, Monaco, Consolas, "Courier New", monospace !important;
 }
 .gist .markdown-body {
   padding: 15px;
